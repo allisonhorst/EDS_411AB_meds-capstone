@@ -35,3 +35,4 @@ Throughout the course, students will build on skills they have learned in prior 
 
 - **Implement professional skills for data science careers** including code and documentation peer review, team and client relations, scheduling and organizing tools & strategies, and conflict resolution & communication
 
+
