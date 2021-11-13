@@ -1,5 +1,5 @@
 name: "meds-distill-template"
-title: "EDS 123"
+title: "EDS 411A"
 description: |
   MEDS Courses distill template
 output_dir: "docs"
@@ -35,10 +35,7 @@ navbar:
       href: resources.html
     - icon: fab fa-github
       href: https://github.com/allisonhorst/meds-distill-template
-output:
-  distill::distill_article:
-    toc: true
-    toc_float: true
+output: distill::distill_article
 theme: theme.css
 
 # To remove table of contents on each page, set toc: and toc_float: lines to false
