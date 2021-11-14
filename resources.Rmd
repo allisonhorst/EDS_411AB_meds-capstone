@@ -1,34 +1,49 @@
 ---
-title: "Resources"
+title: "Capstone resources"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-### Data science team management
+### Bren & MEDS Capstone official information
+
+-   [Bren School Student Resources page](https://bren.ucsb.edu/academic-resources-current-students)
+-   [MEDS Capstone Guidelines]()
+
+### MEDS Capstone Timeline 2021 - 2022
+
+Milestones described below are in addition to project work & progress agreed on between advisors and capstone groups.
+
+| Winter Quarter (Week) | Milestone                                                     |
+|-----------------------|---------------------------------------------------------------|
+| 1 - 6                 | Draft Design & Implementation Plan                            |
+| 6 (end)               | Submit Design & Implementation Plan to faculty advisors       |
+| 7 - 8                 | Revise Design & Implementation Plan                           |
+| 9                     | Faculty Reviews                                               |
+| 10                    | Final Design & Implementation Plan due (last day of EDS 411A) |
+
+### Team management & communication
+
+
 
 ### Data science project management
 
-- [Data Science Project Management](https://www.datascience-pm.com/)
-
+-   [Data Science Project Management](https://www.datascience-pm.com/)
+-   [Data Science Project Timelines]
 
 ### Data management plans and documentation
 
-- [UC Berkeley Library How to Write Good Documentation](https://guides.lib.berkeley.edu/how-to-write-good-documentation)
-- [ASU Library Data Management and Sharing plan](https://libguides.asu.edu/data/start/checklist)
-- [UCLA Library Data Management Checklist](https://guides.library.ucla.edu/c.php?g=180539&p=1190233)
-- [UC Davis Library Data Management Checklist](https://www.library.ucdavis.edu/guide/managing-your-data-a-project-checklist/)
-- [Examples of strong data management plans from DMPtool.org](https://blog.dmptool.org/2021/05/19/dmp-competition-winners-dmps-so-good-they-go-to-11/)
+-   [UC Berkeley Library How to Write Good Documentation](https://guides.lib.berkeley.edu/how-to-write-good-documentation)
+-   [ASU Library Data Management and Sharing plan](https://libguides.asu.edu/data/start/checklist)
+-   [UCLA Library Data Management Checklist](https://guides.library.ucla.edu/c.php?g=180539&p=1190233)
+-   [UC Davis Library Data Management Checklist](https://www.library.ucdavis.edu/guide/managing-your-data-a-project-checklist/)
+-   [Examples of strong data management plans from DMPtool.org](https://blog.dmptool.org/2021/05/19/dmp-competition-winners-dmps-so-good-they-go-to-11/)
+-   Geiger et al. (2018). [The types, roles and practices of documentation in data analytics open source software libraries](https://link.springer.com/article/10.1007/s10606-018-9333-1). Computer Supported Cooperative Work *27*: 767 - 802.
 
+### Data storage and sharing
 
-### Data storage and sharing 
-
-- [UCSB Dryad Data Repository](https://www.library.ucsb.edu/research-data-services/repository)
-- 
-
-### Conflicts and resolution
-
-- 
+-   [UCSB Dryad Data Repository](https://www.library.ucsb.edu/research-data-services/repository)
+-   
 
 ### Additional resources

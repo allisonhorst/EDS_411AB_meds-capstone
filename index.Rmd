@@ -1,5 +1,5 @@
 ---
-title: "EDS 411A: MEDS Capstone"
+title: "EDS 411AB: MEDS Capstone"
 site: distill::distill_website
 ---
 
@@ -14,14 +14,15 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-```{r, out.width = "100%", fig.cap = "Multiple computers on a shared table with devices, snacks and coffee. Photo by Marvin Meyer on unsplash (https://unsplash.com/photos/SYTO3xs06fU)."}
+```{r, out.width = "100%"}
 
 # UPDATE IMAGE HERE 
 # or copy/paste this code elsewhere, updating the file path, to add other images to your site!
-knitr::include_graphics("img/marvin-meyer-computers.jpg")
+knitr::include_graphics("img/growth_von_diemar.jpg")
 ```
+<center><i><p style="font-size:12px">Image: a single green plant seedling in red soil. Photo by <a href="https://unsplash.com/@davidvondiemar?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">David von Diemar</a> on <a href="https://unsplash.com/s/photos/seedling?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p></i></center>
 
-### Course description
+## Course description
 
 The goal of EDS 411A is to facilitate student learning, work and progress on their MEDS Capstone project through lessons, activities, supervised and unsupervised project work, and peer review and feedback. Additionally, EDS 411A provides opportunities for professional and career development (e.g. presentation skills, writing and editing, client relations, team science, panel discussions, and conflict resolution). 
 

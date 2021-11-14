@@ -1,5 +1,5 @@
 name: "meds-distill-template"
-title: "EDS 411A"
+title: "EDS 411AB"
 description: |
   MEDS Courses distill template
 output_dir: "docs"
@@ -7,34 +7,16 @@ navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "Topics"
+    - text: "Weekly materials"
       menu:
-        - text: "Topic 1: Add a new site page"
-          href: topic_1.html
-        - text: "Topic 2: Update site title & subtitle"
-          href: topic_2.html
-        - text: "Topic 3: Add images"
-          href: topic_3.html
-        - text: "Topic 4: Change the theme"
-          href: topic_4.html
-        - text: "Topic 5: Basic formatting"
-          href: topic_5.html
-        - text: "Topic 6: Internal & external links"
-          href: topic_6.html
-        - text: "Topic 7: Remove tables of contents"
-          href: topic_7.html
-        - text: "Topic 8: Add a dropdown menu from navigation bar item"
-          href: topic_8.html
-        - text: "Topic 9: Change site fonts"
-          href: topic_9.html
-        - text: "Topic 10: Add a table"
-          href: topic_10.html
-    - text: "Assignments"
-      href: assignments.html
+        - text: "Week 1: Team management plans"
+          href: week_1.html
+        - text: "Week 2: Documentation plan"
+          href: week_2.html
     - text: "Resources"
       href: resources.html
     - icon: fab fa-github
-      href: https://github.com/allisonhorst/meds-distill-template
+      href: https://github.com/allisonhorst/EDS_411AB_meds-capstone/
 output: distill::distill_article
 theme: theme.css
 
