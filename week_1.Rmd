@@ -31,13 +31,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### 1:30pm - 2:15pm: Project Flash Talks
 
-Spend 15 minutes creating then practicing a 2 to 3 minute, 3 slide presentation on your project. The 3 slides should be (1) Background, (2) Project motivation (or problem / knowledge gap), (3) Project objective(s). Your group can decide how you break up the presentation - 2 presenters minimum. 
+Spend 15 minutes creating then practicing a 2 to 3 minute, 4 slide presentation on your project. The 4 slides should be (1) Cover slide, (2) Background, (3) Project motivation (or problem / knowledge gap), (4) Project objective(s). Your group can decide how you break up the presentation - 2 presenters minimum. 
 
 **Break: 2:15pm - 2:30pm PST**
 
 ### 2:30pm - 3:00pm: Write a summary for the Bren website
 
 Each MEDS Capstone project will be featured on the Bren website. Spend ~10 minutes browsing some [MESM project summaries](https://bren.ucsb.edu/projects) to get an idea of what is expected. Then, start drafting your paragraph for the website in the shared document.
+
+Continue to work on your summary after 411A this week. Add a finalized version of your summary to [this shared google doc](https://docs.google.com/document/d/1th6oXjO1G7FcjorPQmEAPL4ESOvQ-uqmULfzSLGJDig/edit?usp=sharing) by Monday 1/11 at 5pm. We will then share that document with Melissa Van De Werfhorst (Bren Communications Director) to post your summaries to the Bren website. 
 
 ### Finance - using your group money (3:00pm - 3:30pm)
 
@@ -73,6 +75,7 @@ Add your proposed roles to [this shared doc](https://docs.google.com/spreadsheet
 - All members should read through the [MEDS Capstone Guidelines](https://bren.ucsb.edu/media/3557/download)
 - Prepare a first draft of the Team Management Plan section of your Design & Implementation Plan (and feel free to work on other sections!)
 - Let Brad & Kat know your team alias ASAP (so they can create your Taylor directory & email)
+- Finalize your summary paragraph for the Bren website
 - Make sure your project roles are updated on the [shared Googlesheet](https://docs.google.com/spreadsheets/d/19iI1BGMthN6ccFWxkMGPeT8aWXAsnonYmXkO6K9CfMM/edit#gid=0)
 
 
