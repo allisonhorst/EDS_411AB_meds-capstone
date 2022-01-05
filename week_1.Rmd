@@ -1,56 +1,78 @@
 ---
-title: "Topic 1: Add/remove a site page"
+title: "Week 1: Hello, (Capstone) world!"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-**NOTE:** There are 10 toy Topic sections here, expecting that some teachers may want to have one page per week (for a 10 week course). You are encouraged to structure your course **however works best for your class**. All of your course information could be on a single page, or you might have a different number of topics, or organize weekly, or any other organization that works for you.
+## Week 1 Materials
 
-<p style="color: #ba5e00"><b>TO UPDATE THIS PAGE:</b> Open and edit the <b>topic_1.Rmd</b> file, in the project root, to delete this placeholder text and customize with your own!</p>
+- Week 1 [Slides](https://docs.google.com/presentation/d/e/2PACX-1vR2FTOKqfY9MLh40qLPA77ZCQ6Yx_Xxm_DPZSpfYaixwA0CRq_bmvy3qZtz3AQMoa6WA88StOE8trb6/pub?start=false&loop=false&delayms=3000)
 
-## Add a site page
+## Week 1 Goals:
 
-### The quick version: 
+- EDS 411AB course introduction
+  - What are we doing here?
+  - What is the time expectation? 
+  - How will I be evaluated?
+  - How do we get help?
+- Tell us about your project! 2-minute flash talks 
+- Write a short paragraph on your project for the Bren website
+- Finance team visit - how to use your Capstone funds
+- Decide on a project alias
+- Define team roles
 
-- Make a new R Markdown document, save
-- Add the rendered .html to _site.yaml so the page exists on the site
-- Build to see updated site
+### 1:00pm - 1:30pm: EDS 411AB Course Intro
 
-Below for a bit more detail...
+- Who's presenting? Allison
+- Where: On Zoom! 
+- When: 1:00 pm PST - 1:30 PST
 
-### Make each page an R Markdown document
+### 1:30pm - 2:15pm: Project Flash Talks
 
-To make a new page:
+Spend 15 minutes creating then practicing a 2 to 3 minute, 3 slide presentation on your project. The 3 slides should be (1) Background, (2) Project motivation (or problem / knowledge gap), (3) Project objective(s). Your group can decide how you break up the presentation - 2 presenters minimum. 
 
-1. Within your website Project, create a new .Rmd (File > New File > R Markdown). Save it to the project root. For this example, let's say you've saved it as `new_page.Rmd.`
+**Break: 2:15pm - 2:30pm PST**
 
-2. In that .Rmd file, remove everything but the title (which you can change) from the YAML - that's the top section of the .Rmd, where by default it has title, author, date, etc.
+### 2:30pm - 3:00pm: Write a summary for the Bren website
 
-3. Update the .Rmd to contain whatever you want to have on that page. Don't know a lot about markdown? Considering switching over to the [Visual Editor in RStudio](https://blog.rstudio.com/2020/09/30/rstudio-v1-4-preview-visual-markdown-editing/) (versions >= 1.4). 
+Each MEDS Capstone project will be featured on the Bren website. Spend ~10 minutes browsing some [MESM project summaries](https://bren.ucsb.edu/projects) to get an idea of what is expected. Then, start drafting your paragraph for the website in the shared document.
 
-4. Save the .Rmd
+### Finance - using your group money (3:00pm - 3:30pm)
 
-### Add it to your navigation bar
+Members of the Bren finance team will join via Zoom to go over important information about using your Capstone budget & how to use it. 
 
-5. Open the `_site.yml` file in your Project
+**Break: 3:30pm - 3:45pm**
 
-6. Add the information to the YAML navbar section, which will almost always be the text that you want to appear in the navigation bar, and the file name of the **knitted html** that will be automatically rendered to /docs when you Build your website. That would be `new_page.html` for this example (since the .Rmd it is rendered from is `new_page.Rmd`). So in the `_site.yml` I would need to add this to the navbar section: 
+### 3:45pm - 4:00pm: Team alias! 
 
-```
-    - text: "A new page!"
-      href: new_page.html
-```
+Your team alias - a short, memorable abbreviated name for your project - serves multiple professional purposes, including: 
 
-**Note:** YAML is space & indentation specific. Follow the structure that already exists in this template to avoid YAML errors.
+- The directory name on Taylor
+- Your group's email prefix 
+- Use in MEDS Capstone communication with faculty and staff
 
-How is the website finding the html? Notice in the `_site.yml` file, the `output_dir` is set to `docs`. That means when we press 'Build website' (in the Build tab in RStudio), our .Rmd pages are knitted to HTML & sent to the `_docs` folder. This is also important because when we deploy the site (make it live), we will want to deploy **from that docs folder** using GitHub pages.
+Spend 15 minutes brainstorming group aliases. Keep in mind that this will likely be part of a file path, so using good practices for naming things is in your best interest. Some examples of team aliases from previous Bren MESM projects are: 
 
-Take a look at some other pages in this template (Resources, Assignments, etc.) to see the structure, & give it a shot!
+- **nadatrace** (evaluated opportunities for Nada Groceries to minimize waste)
+- **worthwhale** (economic valuation of whale watching & marine planning in Dominica)
+- **maricultura** (assessed Brazil's aquaculture potential)
+- **justhealth** (investigated relationships between air quality and diabetes risk in California)
 
-## Delete/disappear a site page
+Once you have decided on your team alias, send it to Brad & Kat so they can set up your Taylor directory and group email address. 
 
-The safest thing to do if you don't want a page to *show up* is to remove it from the `_site.yml` navbar listings. That way, the material on the page still exists as a file in your project, but doesn't show up on the website -- don't delete a page file unless you are REALLY SURE that you're never going to want the material on that page ever again.
+### 4:00 - 5:00pm - Define team roles and report back
+
+All teams are required to have a project manager (PM) and communication manager (CM). Other roles should be decided based on project-specific needs and expectations. Discuss with your team - in addition to the PM and CM, what do you think are the most important roles for the success of the project? 
+
+Add your proposed roles to [this shared doc](https://docs.google.com/spreadsheets/d/19iI1BGMthN6ccFWxkMGPeT8aWXAsnonYmXkO6K9CfMM/edit#gid=0) by the end of the day. You should discuss the proposed roles with your faculty advisor, and make updates to the Googlesheet to finalize your project roles by Friday, January 11th.  
+
+## What you should do before next week: 
+
+- All members should read through the [MEDS Capstone Guidelines](https://bren.ucsb.edu/media/3557/download)
+- Prepare a first draft of the Team Management Plan section of your Design & Implementation Plan (and feel free to work on other sections!)
+- Let Brad & Kat know your team alias ASAP (so they can create your Taylor directory & email)
+- Make sure your project roles are updated on the [shared Googlesheet](https://docs.google.com/spreadsheets/d/19iI1BGMthN6ccFWxkMGPeT8aWXAsnonYmXkO6K9CfMM/edit#gid=0)
 
 

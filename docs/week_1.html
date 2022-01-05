@@ -86,26 +86,26 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>EDS 411AB: Topic 1: Add/remove a site page</title>
+  <title>EDS 411AB: Week 1: Hello, (Capstone) world!</title>
 
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="EDS 411AB: Topic 1: Add/remove a site page"/>
+  <meta property="og:title" content="EDS 411AB: Week 1: Hello, (Capstone) world!"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="EDS 411AB"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="EDS 411AB: Topic 1: Add/remove a site page"/>
+  <meta property="twitter:title" content="EDS 411AB: Week 1: Hello, (Capstone) world!"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title"]}},"value":[{"type":"character","attributes":{},"value":["Topic 1: Add/remove a site page"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title"]}},"value":[{"type":"character","attributes":{},"value":["Week 1: Hello, (Capstone) world!"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2459,7 +2459,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Topic 1: Add/remove a site page","authors":[]}
+{"title":"Week 1: Hello, (Capstone) world!","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2478,8 +2478,7 @@ Weekly materials
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<a href="week_1.html">Week 1: Team management plans</a>
-<a href="week_2.html">Week 2: Documentation plan</a>
+<a href="week_1.html">Week 1: Hello, (Capstone) world!</a>
 </div>
 </div>
 <a href="resources.html">Resources</a>
@@ -2495,7 +2494,7 @@ Weekly materials
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Topic 1: Add/remove a site page</h1>
+<h1>Week 1: Hello, (Capstone) world!</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 
@@ -2503,39 +2502,65 @@ Weekly materials
 
 
 <div class="d-article">
-<p><strong>NOTE:</strong> There are 10 toy Topic sections here, expecting that some teachers may want to have one page per week (for a 10 week course). You are encouraged to structure your course <strong>however works best for your class</strong>. All of your course information could be on a single page, or you might have a different number of topics, or organize weekly, or any other organization that works for you.</p>
-<p style="color: #ba5e00">
-<b>TO UPDATE THIS PAGE:</b> Open and edit the <b>topic_1.Rmd</b> file, in the project root, to delete this placeholder text and customize with your own!
-</p>
-<h2 id="add-a-site-page">Add a site page</h2>
-<h3 id="the-quick-version">The quick version:</h3>
+<h2 id="week-1-materials">Week 1 Materials</h2>
 <ul>
-<li>Make a new R Markdown document, save</li>
-<li>Add the rendered .html to _site.yaml so the page exists on the site</li>
-<li>Build to see updated site</li>
+<li>Week 1 <a href="https://docs.google.com/presentation/d/e/2PACX-1vR2FTOKqfY9MLh40qLPA77ZCQ6Yx_Xxm_DPZSpfYaixwA0CRq_bmvy3qZtz3AQMoa6WA88StOE8trb6/pub?start=false&amp;loop=false&amp;delayms=3000">Slides</a></li>
 </ul>
-<p>Below for a bit more detail…</p>
-<h3 id="make-each-page-an-r-markdown-document">Make each page an R Markdown document</h3>
-<p>To make a new page:</p>
-<ol type="1">
-<li><p>Within your website Project, create a new .Rmd (File &gt; New File &gt; R Markdown). Save it to the project root. For this example, let’s say you’ve saved it as <code>new_page.Rmd.</code></p></li>
-<li><p>In that .Rmd file, remove everything but the title (which you can change) from the YAML - that’s the top section of the .Rmd, where by default it has title, author, date, etc.</p></li>
-<li><p>Update the .Rmd to contain whatever you want to have on that page. Don’t know a lot about markdown? Considering switching over to the <a href="https://blog.rstudio.com/2020/09/30/rstudio-v1-4-preview-visual-markdown-editing/">Visual Editor in RStudio</a> (versions &gt;= 1.4).</p></li>
-<li><p>Save the .Rmd</p></li>
-</ol>
-<h3 id="add-it-to-your-navigation-bar">Add it to your navigation bar</h3>
-<ol start="5" type="1">
-<li><p>Open the <code>_site.yml</code> file in your Project</p></li>
-<li><p>Add the information to the YAML navbar section, which will almost always be the text that you want to appear in the navigation bar, and the file name of the <strong>knitted html</strong> that will be automatically rendered to /docs when you Build your website. That would be <code>new_page.html</code> for this example (since the .Rmd it is rendered from is <code>new_page.Rmd</code>). So in the <code>_site.yml</code> I would need to add this to the navbar section:</p></li>
-</ol>
-<pre><code>    - text: &quot;A new page!&quot;
-      href: new_page.html</code></pre>
-<p><strong>Note:</strong> YAML is space &amp; indentation specific. Follow the structure that already exists in this template to avoid YAML errors.</p>
-<p>How is the website finding the html? Notice in the <code>_site.yml</code> file, the <code>output_dir</code> is set to <code>docs</code>. That means when we press ‘Build website’ (in the Build tab in RStudio), our .Rmd pages are knitted to HTML &amp; sent to the <code>_docs</code> folder. This is also important because when we deploy the site (make it live), we will want to deploy <strong>from that docs folder</strong> using GitHub pages.</p>
-<p>Take a look at some other pages in this template (Resources, Assignments, etc.) to see the structure, &amp; give it a shot!</p>
-<h2 id="deletedisappear-a-site-page">Delete/disappear a site page</h2>
-<p>The safest thing to do if you don’t want a page to <em>show up</em> is to remove it from the <code>_site.yml</code> navbar listings. That way, the material on the page still exists as a file in your project, but doesn’t show up on the website – don’t delete a page file unless you are REALLY SURE that you’re never going to want the material on that page ever again.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<h2 id="week-1-goals">Week 1 Goals:</h2>
+<ul>
+<li>EDS 411AB course introduction
+<ul>
+<li>What are we doing here?</li>
+<li>What is the time expectation?</li>
+<li>How will I be evaluated?</li>
+<li>How do we get help?</li>
+</ul></li>
+<li>Tell us about your project! 2-minute flash talks</li>
+<li>Write a short paragraph on your project for the Bren website</li>
+<li>Finance team visit - how to use your Capstone funds</li>
+<li>Decide on a project alias</li>
+<li>Define team roles</li>
+</ul>
+<h3 id="pm---130pm-eds-411ab-course-intro">1:00pm - 1:30pm: EDS 411AB Course Intro</h3>
+<ul>
+<li>Who’s presenting? Allison</li>
+<li>Where: On Zoom!</li>
+<li>When: 1:00 pm PST - 1:30 PST</li>
+</ul>
+<h3 id="pm---215pm-project-flash-talks">1:30pm - 2:15pm: Project Flash Talks</h3>
+<p>Spend 15 minutes creating then practicing a 2 to 3 minute, 3 slide presentation on your project. The 3 slides should be (1) Background, (2) Project motivation (or problem / knowledge gap), (3) Project objective(s). Your group can decide how you break up the presentation - 2 presenters minimum.</p>
+<p><strong>Break: 2:15pm - 2:30pm PST</strong></p>
+<h3 id="pm---300pm-write-a-summary-for-the-bren-website">2:30pm - 3:00pm: Write a summary for the Bren website</h3>
+<p>Each MEDS Capstone project will be featured on the Bren website. Spend ~10 minutes browsing some <a href="https://bren.ucsb.edu/projects">MESM project summaries</a> to get an idea of what is expected. Then, start drafting your paragraph for the website in the shared document.</p>
+<h3 id="finance---using-your-group-money-300pm---330pm">Finance - using your group money (3:00pm - 3:30pm)</h3>
+<p>Members of the Bren finance team will join via Zoom to go over important information about using your Capstone budget &amp; how to use it.</p>
+<p><strong>Break: 3:30pm - 3:45pm</strong></p>
+<h3 id="pm---400pm-team-alias">3:45pm - 4:00pm: Team alias!</h3>
+<p>Your team alias - a short, memorable abbreviated name for your project - serves multiple professional purposes, including:</p>
+<ul>
+<li>The directory name on Taylor</li>
+<li>Your group’s email prefix</li>
+<li>Use in MEDS Capstone communication with faculty and staff</li>
+</ul>
+<p>Spend 15 minutes brainstorming group aliases. Keep in mind that this will likely be part of a file path, so using good practices for naming things is in your best interest. Some examples of team aliases from previous Bren MESM projects are:</p>
+<ul>
+<li><strong>nadatrace</strong> (evaluated opportunities for Nada Groceries to minimize waste)</li>
+<li><strong>worthwhale</strong> (economic valuation of whale watching &amp; marine planning in Dominica)</li>
+<li><strong>maricultura</strong> (assessed Brazil’s aquaculture potential)</li>
+<li><strong>justhealth</strong> (investigated relationships between air quality and diabetes risk in California)</li>
+</ul>
+<p>Once you have decided on your team alias, send it to Brad &amp; Kat so they can set up your Taylor directory and group email address.</p>
+<h3 id="pm---define-team-roles-and-report-back">4:00 - 5:00pm - Define team roles and report back</h3>
+<p>All teams are required to have a project manager (PM) and communication manager (CM). Other roles should be decided based on project-specific needs and expectations. Discuss with your team - in addition to the PM and CM, what do you think are the most important roles for the success of the project?</p>
+<p>Add your proposed roles to <a href="https://docs.google.com/spreadsheets/d/19iI1BGMthN6ccFWxkMGPeT8aWXAsnonYmXkO6K9CfMM/edit#gid=0">this shared doc</a> by the end of the day. You should discuss the proposed roles with your faculty advisor, and make updates to the Googlesheet to finalize your project roles by Friday, January 11th.</p>
+<h2 id="what-you-should-do-before-next-week">What you should do before next week:</h2>
+<ul>
+<li>All members should read through the <a href="https://bren.ucsb.edu/media/3557/download">MEDS Capstone Guidelines</a></li>
+<li>Prepare a first draft of the Team Management Plan section of your Design &amp; Implementation Plan (and feel free to work on other sections!)</li>
+<li>Let Brad &amp; Kat know your team alias ASAP (so they can create your Taylor directory &amp; email)</li>
+<li>Make sure your project roles are updated on the <a href="https://docs.google.com/spreadsheets/d/19iI1BGMthN6ccFWxkMGPeT8aWXAsnonYmXkO6K9CfMM/edit#gid=0">shared Googlesheet</a></li>
+</ul>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
