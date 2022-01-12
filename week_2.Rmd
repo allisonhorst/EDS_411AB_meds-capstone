@@ -1,17 +1,40 @@
 ---
-title: "Topic 2: Update site title and subtitle"
+title: "Topic 2: Working with clients, and starting solution design"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-<p style="color: #ba5e00"><b>TO UPDATE THIS PAGE:</b> Open and edit the <b>topic_2.Rmd</b> file, in the project root, to delete this placeholder text and customize with your own!</p>
+## Week 2 Materials
 
-One of the first things you'll want to do is update your site title, subtitle, and the short link on the right side of the navbar. 
+- Week 2 [Slides](https://docs.google.com/presentation/d/e/2PACX-1vThGEsQ71FAft_ciJ-lZZKPsWiGqYTm4aV07g_UJfMp9HZfnbfJlZ6u0sulOtRLCoyeg9LbFAvqWOWx/pub?start=false&loop=false&delayms=3000)
 
-Here's how:
+## Week 2 Goals:
 
-- The main title and subtitle for the home page live in the YAML of the `index.Rmd` file. Open it in your project, update the `title` and `description` fields in the YAML, save, then build your site (In RStudio: Build > Build Website) to see the updated title.
+- Address questions on Team Management Plan
+- Group sharing: what worked & didn't from Week 1?
+- Peer review: Team Management Plan
+- Tips for working with clients on a data science project
+- Introducing the Solution Design
+- Sketching out & presenting a Solution Design schematic
 
-- The label for the short link in the upper right of the page (right side of the navigation bar) is specified in the `_site.yml` page. Open the `_site.yml` file in your project, update the Title field, save, and rebuild the site to see your update.
+## Today's timeline: 
+
+- 1:00 - 1:30 - Reminders, Meeting Tips, Questions & “What worked?”
+- 1:30 - 2:15 - Team management plan peer review
+- *2:15 - 2:30 - Break*
+- 2:30 - 3:00 - Working with a client - a few big tips
+- 3:00 - 3:15 - Introducing the Solution Design section
+- 3:15 - 3:45 - Sketchy Solution Design
+- *3:45 - 4:00 - Break*
+- 4:00 - 4:30 - Present your sketch (3 minutes each group)
+- 4:30 - 4:45 - Clarify questions you have for Solution Design
+- 4:50 - 5:00 - Designated team time
+
+## What you should do before next week: 
+
+- Make your list of Products and Deliverables (section e of D&I Plan)
+- Drafted timeline for your work (unrelated to Bren deliverables - this should be specifically for your data science product work). Review timeline with advisor / client this week or next. 
+- Skeleton draft of Solution Design, with a schematic to share in 411A next week. The point is to clarify what you don’t know and still need. Schematics are encouraged in your D&I plan, so this could / should end up being a final figure in your submitted document. 
+- Based on your Team Management Plan, create your repo (most likely) or whatever tool you’re using for project accountability & progress tracking. Add action items for each person, each week (i.e. each person should have a “to-do” list). Share with both faculty advisors. 

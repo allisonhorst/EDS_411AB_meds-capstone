@@ -48,6 +48,5 @@ Milestones described below are in addition to project work & progress agreed on 
 ### Data storage and sharing
 
 -   [UCSB Dryad Data Repository](https://www.library.ucsb.edu/research-data-services/repository)
--   
 
 ### Additional resources
