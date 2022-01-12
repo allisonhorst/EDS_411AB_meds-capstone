@@ -9,7 +9,11 @@ knitr::opts_chunk$set(echo = TRUE)
 ### Bren & MEDS Capstone official information
 
 -   [Bren School Student Resources page](https://bren.ucsb.edu/academic-resources-current-students)
--   [MEDS Capstone Guidelines]()
+-   [MEDS Capstone Guidelines](https://bren.ucsb.edu/media/3557/download)
+
+### Course & 411A Resources
+
+- [Getting Capstone help "Order of Operations" schematic](https://drive.google.com/uc?export=download&id=1Xk2tH38phyiKAXPiLWyTxzFxaxfu5s-l) 
 
 ### MEDS Capstone Timeline 2021 - 2022
 
