@@ -37,11 +37,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 -   Draft **Problem Statement and Objectives** section of Design & Implementation Plan
 
--   Continue work on Solution Design section (full draft expected)
+-   Continue work on Solution Design section (full draft expected, or placeholders where gaps exist)
 
 -   Next week be prepared to present:
 
-    -   A 3 minute flash talk on Timeline & Milestones
+    -   A 3 minute flash talk on Timeline & Milestones (2 presenters minimum)
 
     -   A 3 - 4 minute presentation (2 presenters minimum) with the following:
 
@@ -52,5 +52,3 @@ knitr::opts_chunk$set(echo = TRUE)
         -   Problem / gap (1 slide)
 
         -   Objectives (1 slide)
-
--   Every group **must** sign up for a 30 minute meeting with me during Week 4 or 5 (check-in on Bren Academic deliverables). Prepare for this meeting to make it as efficient and productive as possible.
