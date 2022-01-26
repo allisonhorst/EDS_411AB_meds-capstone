@@ -1,5 +1,5 @@
 ---
-title: "Topic 3: Problems, mishaps & blameless postmortems"
+title: "Week 3: Problems, mishaps & blameless postmortems"
 ---
 
 ```{r setup, include=FALSE}

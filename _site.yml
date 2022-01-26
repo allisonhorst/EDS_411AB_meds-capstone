@@ -13,8 +13,9 @@ navbar:
           href: week_1.html
         - text: "Week 2: Solution design skeletons"
           href: week_2.html
-        - text: "Week 3: Problems, objectives, and blameless postmortems"
+        - text: "Week 3: Problems and objectives"
           href: week_3.html
+        - text: "Week 4: Faculty reviews and Q&A"
     - text: "Resources"
       href: resources.html
     - icon: fab fa-github

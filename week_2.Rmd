@@ -1,5 +1,5 @@
 ---
-title: "Topic 2: Working with clients, and starting solution design"
+title: "Week 2: Working with clients, and starting solution design"
 ---
 
 ```{r setup, include=FALSE}

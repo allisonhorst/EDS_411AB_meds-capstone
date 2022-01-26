@@ -1,0 +1,37 @@
+---
+title: "Week 4: Faculty reviews, responding to questions, postmortems, and flash talks"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Week 4 Materials
+
+-   Week 4 [Slides](https://docs.google.com/presentation/d/e/2PACX-1vQiThNc66JNXpVZ89GlHQc1A43msNeVK1zee60OVX-GjqDYRZkB3gTLY3Tyf_mlFogu90zJWQnsgarQ/pub?start=false&loop=false&delayms=3000)
+
+## Week 4 Goals:
+
+- Flash talks: timelines & milestones, background & objectives
+- Faculty Review: what to expect, logistics, overview
+- Responding to questions
+- Postmortems
+
+## Today's timeline:
+
+- 1:00 - 1:20 - Reminders, questions & share some wins / ideas
+- 1:20 - 1:45 - “State of your data” discussion (group sharing)
+- 1:45 - 2:45 - Flash talks: Background, problem, objectives
+- *2:45 - 3:00 - Break*
+- 3:00 - 3:45 - Faculty Reviews Part 1: logistics, content, questions
+- *3:45 - 4:00 - Break*
+- 4:00 - 4:30 - Flash talks: Timelines & milestones
+- 4:30 - 4:50 - Productive postmortems
+- *4:50 - 5:00 - Group time*
+
+## What you should do before next week: 
+
+- Draft Documentation Plan section of Design & Implementation Plan
+- Continue editing and weaving drafted sections of D&I Plan
+- Read [this short post](https://www.applause.com/blog/functional-testing-types-examples) on different types of software testing, and [this one](https://www.usgs.gov/data-management/manage-quality) on data quality, to understand some different testing and data quality flavors (we’ll discuss more next week)
+- Brainstorm different ways you are concerned your product and/or data could break / fail. Prepare a 2-slide flash talk (3 minutes, 2 presenters) to share expected breaks. *This will motivate group discussions & feedback on product testing.*
