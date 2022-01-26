@@ -16,6 +16,7 @@ navbar:
         - text: "Week 3: Problems and objectives"
           href: week_3.html
         - text: "Week 4: Faculty reviews and Q&A"
+          href: week_4.html
     - text: "Resources"
       href: resources.html
     - icon: fab fa-github
