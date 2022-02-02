@@ -1,0 +1,49 @@
+---
+title: "Week 5: Testing and Faculty Reviews Part 2"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Week 5 Materials
+
+-   Week 5 [Slides](https://docs.google.com/presentation/d/e/2PACX-1vSfMQhJYYIg9tK885rX51iTqQpUQIYj2jNnIYgsjtAOKm2uKYxZ2ce7jYPaA1j5RPLYO6F6Tcms0QL3/pub?start=false&loop=false&delayms=3000)
+
+## Week 5 Goals:
+
+- Lessons: flavors of testing
+- Part 2 of Capstone Faculty Review Information
+- Directed work: testing brainstorm and peer feedback
+- Practice presenting a graph
+
+## Today's timeline:
+
+- **1:00 - 1:10** - Intro, questions, wins
+- **1:10 - 1:30** - How to present a data visualization
+- **1:30 - 1:50** - Mini-lecture - Testing
+- **1:50 - 2:20** - Breaking things flash talks
+- *2:20 - 2:35 - Break*
+- **2:35 - 4:00** - Group discussions, peer feedback & work: Testing plan
+- *4:00 - 4:15 - Break*
+- **4:15 - 4:45** - Capstone Faculty Reviews: Part 2
+- *4:45 - 5:00 - Group time*
+
+## What you should do before next week: 
+
+- Draft Testing Plan section of Design & Implementation Plan
+- Continue editing and weaving drafted sections of D&I Plan
+- Have a full draft of your Design & Implementation plan ready to share with another group to get feedback
+- Prepare a skeleton slide deck for your faculty review presentation (like an outline, but with the sections as slide headers). Populate with stuff you have already. 
+
+## Resources for testing
+
+- Jeff Perkel (2022) [How to fix your scientific coding errors](https://www.nature.com/articles/d41586-022-00217-0). Nature Technology Feature. 
+
+- [DataONE Best Practices - Data Assurance](https://dataoneorg.github.io/Education/bp_step/assure/)
+
+- Google [Testing and Debugging in ML](https://developers.google.com/machine-learning/testing-debugging)
+
+- Fay et al. [Engineering Production-Grade Shiny Apps Ch. 11 - Build yourself a safety net](https://engineering-shiny.org/build-yourself-safety-net.html)
+
+- Taschuk and Wilson (2017) [Ten simple rules for making research software more robust](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005412). PLOS Comp Bio. 
