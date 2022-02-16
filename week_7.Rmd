@@ -1,0 +1,33 @@
+---
+title: "Week 7: Responding to questions, practice presentations"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Week 7 Materials
+
+-   Week 7 [Slides](https://docs.google.com/presentation/d/e/2PACX-1vT5dMizsbjxtY9ASO670_k4KnFXDxJAJuhr76XfgIy2p9L4Khg4X5OyDa9GBaOJGnwCH0aLjMNVsx-W/pub?start=false&loop=false&delayms=3000)
+
+## Week 7 Goals:
+
+- Tips for responding to questions
+- Identify question bins and start brainstorming
+- Practice presentations and feedback for Faculty Reviews
+- Discuss strategies for delegating tasks (efficient coworking)
+
+## Today's timeline:
+
+- **1:00 - 1:15** - Intro, questions, reminders
+- **1:15 - 1:45** - Efficient coworking discussion
+- **1:45 - 2:15** - Mini-lecture - Question bins
+- *2:15 - 2:30 - Break*
+- **2:30 - 3:00** - Identify your question bins, brainstorm 2 - 3 questions per bin
+- **3:00 - 5:00** - Practice presentations and feedback
+
+## What you should do before next week for 411A: 
+
+- Edit your Design & Implementation Plan once feedback received 
+- Iterate on your presentation (and practice giving it)
+- Continue adding to your question bins
