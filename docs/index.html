@@ -56,7 +56,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -77,13 +77,14 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
 code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
+
 
   <!--radix_placeholder_meta_tags-->
   <title>EDS 411AB: EDS 411AB: MEDS Capstone</title>
@@ -1859,7 +1860,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          return "<p>" + $('#ref-' + ref).html() + "</p>";
+        }).join("\n");
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -2439,7 +2443,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.11.3/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.12.1/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2485,6 +2489,7 @@ Weekly materials
 <a href="week_5.html">Week 5: Testing</a>
 <a href="week_6.html">Week 6: DIP &amp; faculty review work</a>
 <a href="week_7.html">Week 7: Q&amp;A, practice presentations</a>
+<a href="week_10.html">Week 10: Looking back &amp; forward</a>
 </div>
 </div>
 <a href="resources.html">Resources</a>
@@ -2514,20 +2519,46 @@ Weekly materials
 <center>
 <i>
 <p style="font-size:12px">
-Image: a single green plant seedling in red soil. Photo by <a href="https://unsplash.com/@davidvondiemar?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">David von Diemar</a> on <a href="https://unsplash.com/s/photos/seedling?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Image: a single green plant seedling in red soil. Photo by
+<a href="https://unsplash.com/@davidvondiemar?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">David
+von Diemar</a> on
+<a href="https://unsplash.com/s/photos/seedling?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 </p>
 </i>
 </center>
 <h2 id="course-description">Course description</h2>
-<p>The goal of EDS 411A is to facilitate student learning, work and progress on their MEDS Capstone project through lessons, activities, supervised and unsupervised project work, and peer review and feedback. Additionally, EDS 411A provides opportunities for professional and career development (e.g. presentation skills, writing and editing, client relations, team science, panel discussions, and conflict resolution).</p>
-<p>Throughout the course, students will build on skills they have learned in prior MEDS courses to implement them in a real-world data science project, including:</p>
+<p>The goal of EDS 411A is to facilitate student learning, work and
+progress on their MEDS Capstone project through lessons, activities,
+supervised and unsupervised project work, and peer review and feedback.
+Additionally, EDS 411A provides opportunities for professional and
+career development (e.g. presentation skills, writing and editing,
+client relations, team science, panel discussions, and conflict
+resolution).</p>
+<p>Throughout the course, students will build on skills they have
+learned in prior MEDS courses to implement them in a real-world data
+science project, including:</p>
 <ul>
-<li><p><strong>Prepare professional documentation</strong> for a data science project through the Design and Implementation Plan, and Technical Documentation</p></li>
-<li><p><strong>Practice project management and reproducible workflows</strong> using tools and strategies learned in MEDS courses, establishing clear expectations for group roles and participation, and with frequent updates within and across groups</p></li>
-<li><p><strong>Continue to build real-world skills for data science projects</strong> through continued collaborative work in git, data analyses and statistics, data visualization and communication, and more</p></li>
-<li><p><strong>Implement professional skills for data science careers</strong> including code and documentation peer review, team and client relations, scheduling and organizing tools &amp; strategies, and conflict resolution &amp; communication</p></li>
+<li><p><strong>Prepare professional documentation</strong> for a data
+science project through the Design and Implementation Plan, and
+Technical Documentation</p></li>
+<li><p><strong>Practice project management and reproducible
+workflows</strong> using tools and strategies learned in MEDS courses,
+establishing clear expectations for group roles and participation, and
+with frequent updates within and across groups</p></li>
+<li><p><strong>Continue to build real-world skills for data science
+projects</strong> through continued collaborative work in git, data
+analyses and statistics, data visualization and communication, and
+more</p></li>
+<li><p><strong>Implement professional skills for data science
+careers</strong> including code and documentation peer review, team and
+client relations, scheduling and organizing tools &amp; strategies, and
+conflict resolution &amp; communication</p></li>
 </ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<p><strong>Note:</strong> Weeks 7 &amp; 8 are practice presentations
+(for Faculty Reviews) and directed work on projects. Week 9 is Faculty
+Reviews. That’s why there aren’t shared materials for those weeks.</p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

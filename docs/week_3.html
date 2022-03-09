@@ -56,7 +56,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -77,13 +77,14 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
 code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
+
 
   <!--radix_placeholder_meta_tags-->
   <title>EDS 411AB: Week 3: Problems, mishaps &amp; blameless postmortems</title>
@@ -1859,7 +1860,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          return "<p>" + $('#ref-' + ref).html() + "</p>";
+        }).join("\n");
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -2439,7 +2443,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.11.3/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.12.1/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2485,6 +2489,7 @@ Weekly materials
 <a href="week_5.html">Week 5: Testing</a>
 <a href="week_6.html">Week 6: DIP &amp; faculty review work</a>
 <a href="week_7.html">Week 7: Q&amp;A, practice presentations</a>
+<a href="week_10.html">Week 10: Looking back &amp; forward</a>
 </div>
 </div>
 <a href="resources.html">Resources</a>
@@ -2510,7 +2515,8 @@ Weekly materials
 <div class="d-article">
 <h2 id="week-3-materials">Week 3 Materials</h2>
 <ul>
-<li>Week 3 <a href="https://docs.google.com/presentation/d/e/2PACX-1vQJ1lFyIwSjhAiWfog3Hsr_4BaIxZyz7ogl8oh2hKn_sohm_GlN1S49AynYJmjKIkiE4StFYQiA-DI5/pub?start=false&amp;loop=false&amp;delayms=3000">Slides</a></li>
+<li>Week 3 <a
+href="https://docs.google.com/presentation/d/e/2PACX-1vQJ1lFyIwSjhAiWfog3Hsr_4BaIxZyz7ogl8oh2hKn_sohm_GlN1S49AynYJmjKIkiE4StFYQiA-DI5/pub?start=false&amp;loop=false&amp;delayms=3000">Slides</a></li>
 </ul>
 <h2 id="week-3-goals">Week 3 Goals:</h2>
 <ul>
@@ -2519,37 +2525,50 @@ Weekly materials
 <li>Peer review &amp; sharing: Solution Design</li>
 <li>“State of your data” blitz</li>
 <li>Introduction to the blameless postmortem</li>
-<li>Clarifying the problem / gap that <strong>your project</strong> addresses</li>
+<li>Clarifying the problem / gap that <strong>your project</strong>
+addresses</li>
 </ul>
 <h2 id="todays-timeline">Today’s timeline:</h2>
 <ul>
-<li><strong>1:00 - 1:30</strong> - Reminders, questions &amp; share some wins / ideas</li>
-<li><strong>1:30 - 2:00</strong> - Solution design group sharing &amp; questions / gaps clarified</li>
+<li><strong>1:00 - 1:30</strong> - Reminders, questions &amp; share some
+wins / ideas</li>
+<li><strong>1:30 - 2:00</strong> - Solution design group sharing &amp;
+questions / gaps clarified</li>
 <li><em>2:00 - 2:10 - Break</em></li>
 <li><strong>2:10 - 2:25</strong> - Group time (flash talk prep)</li>
-<li><strong>2:25 - 3:00</strong> - Flash talks (solution design overview)</li>
+<li><strong>2:25 - 3:00</strong> - Flash talks (solution design
+overview)</li>
 <li><strong>3:00 - 3:20</strong> - “State of your data” blitz</li>
 <li><em>3:20 - 3:30 - Break</em></li>
-<li><strong>3:30 - 4:00</strong> - Mishaps &amp; blameless postmortems (mini-lecture / discussion)</li>
-<li><strong>4:00 - 4:15</strong> - What’s your problem? (research storytelling mini-lecture)</li>
-<li><strong>4:15 - 4:45</strong> - From background to specific problem / gap - directed work</li>
+<li><strong>3:30 - 4:00</strong> - Mishaps &amp; blameless postmortems
+(mini-lecture / discussion)</li>
+<li><strong>4:00 - 4:15</strong> - What’s your problem? (research
+storytelling mini-lecture)</li>
+<li><strong>4:15 - 4:45</strong> - From background to specific problem /
+gap - directed work</li>
 <li><em>4:45 - 5:00 - Wrap up &amp; group time</em></li>
 </ul>
-<h2 id="what-you-should-do-before-next-week">What you should do before next week:</h2>
+<h2 id="what-you-should-do-before-next-week">What you should do before
+next week:</h2>
 <ul>
-<li><p>Draft <strong>Problem Statement and Objectives</strong> section of Design &amp; Implementation Plan</p></li>
-<li><p>Continue work on Solution Design section (full draft expected, or placeholders where gaps exist)</p></li>
+<li><p>Draft <strong>Problem Statement and Objectives</strong> section
+of Design &amp; Implementation Plan</p></li>
+<li><p>Continue work on Solution Design section (full draft expected, or
+placeholders where gaps exist)</p></li>
 <li><p>Next week be prepared to present:</p>
 <ul>
-<li><p>A 3 minute flash talk on Timeline &amp; Milestones (2 presenters minimum)</p></li>
-<li><p>A 3 - 4 minute presentation (2 presenters minimum) with the following:</p>
+<li><p>A 3 minute flash talk on Timeline &amp; Milestones (2 presenters
+minimum)</p></li>
+<li><p>A 3 - 4 minute presentation (2 presenters minimum) with the
+following:</p>
 <ul>
 <li><p>Cover slide (1 slide)</p></li>
 <li><p>Background (1 - 2 slides)</p></li>
 <li><p>Problem / gap (1 slide)</p></li>
 <li><p>Objectives (1 slide)</p></li>
 </ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div></li>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div></li>
 </ul></li>
 </ul>
 <!--radix_placeholder_article_footer-->

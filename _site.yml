@@ -23,6 +23,8 @@ navbar:
           href: week_6.html
         - text: "Week 7: Q&A, practice presentations"
           href: week_7.html
+        - text: "Week 10: Looking back & forward"
+          href: week_10.html
     - text: "Resources"
       href: resources.html
     - icon: fab fa-github

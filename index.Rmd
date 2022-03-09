@@ -36,4 +36,6 @@ Throughout the course, students will build on skills they have learned in prior 
 
 - **Implement professional skills for data science careers** including code and documentation peer review, team and client relations, scheduling and organizing tools & strategies, and conflict resolution & communication
 
+**Note:** Weeks 7 & 8 are practice presentations (for Faculty Reviews) and directed work on projects. Week 9 is Faculty Reviews. That's why there aren't shared materials for those weeks.
+
 

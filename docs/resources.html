@@ -56,7 +56,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -77,13 +77,14 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
 code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
+
 
   <!--radix_placeholder_meta_tags-->
   <title>EDS 411AB: Capstone resources</title>
@@ -1859,7 +1860,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          return "<p>" + $('#ref-' + ref).html() + "</p>";
+        }).join("\n");
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -2439,7 +2443,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.11.3/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.12.1/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2485,6 +2489,7 @@ Weekly materials
 <a href="week_5.html">Week 5: Testing</a>
 <a href="week_6.html">Week 6: DIP &amp; faculty review work</a>
 <a href="week_7.html">Week 7: Q&amp;A, practice presentations</a>
+<a href="week_10.html">Week 10: Looking back &amp; forward</a>
 </div>
 </div>
 <a href="resources.html">Resources</a>
@@ -2508,18 +2513,30 @@ Weekly materials
 
 
 <div class="d-article">
-<h3 id="bren-meds-capstone-official-information">Bren &amp; MEDS Capstone official information</h3>
+<h3 id="bren-meds-capstone-official-information">Bren &amp; MEDS
+Capstone official information</h3>
 <ul>
-<li><a href="https://bren.ucsb.edu/academic-resources-current-students">Bren School Student Resources page</a></li>
-<li><a href="https://bren.ucsb.edu/media/3557/download">MEDS Capstone Guidelines</a></li>
+<li><a
+href="https://bren.ucsb.edu/academic-resources-current-students">Bren
+School Student Resources page</a></li>
+<li><a href="https://bren.ucsb.edu/media/3557/download">MEDS Capstone
+Guidelines</a></li>
 </ul>
 <h3 id="course-411a-resources">Course &amp; 411A Resources</h3>
 <ul>
-<li><a href="https://drive.google.com/uc?export=download&amp;id=1Xk2tH38phyiKAXPiLWyTxzFxaxfu5s-l">Getting Capstone help “Order of Operations” schematic</a></li>
+<li><a
+href="https://drive.google.com/uc?export=download&amp;id=1Xk2tH38phyiKAXPiLWyTxzFxaxfu5s-l">Getting
+Capstone help “Order of Operations” schematic</a></li>
 </ul>
-<h3 id="meds-capstone-timeline-2021---2022">MEDS Capstone Timeline 2021 - 2022</h3>
-<p>Milestones described below are in addition to project work &amp; progress agreed on between advisors and capstone groups.</p>
+<h3 id="meds-capstone-timeline-2021---2022">MEDS Capstone Timeline 2021
+- 2022</h3>
+<p>Milestones described below are in addition to project work &amp;
+progress agreed on between advisors and capstone groups.</p>
 <table>
+<colgroup>
+<col style="width: 26%" />
+<col style="width: 73%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th>Winter Quarter (Week)</th>
@@ -2545,31 +2562,52 @@ Weekly materials
 </tr>
 <tr class="odd">
 <td>10</td>
-<td>Final Design &amp; Implementation Plan due (last day of EDS 411A)</td>
+<td>Final Design &amp; Implementation Plan due (last day of EDS
+411A)</td>
 </tr>
 </tbody>
 </table>
-<h3 id="team-management-communication">Team management &amp; communication</h3>
-<h3 id="data-science-project-management">Data science project management</h3>
+<h3 id="team-management-communication">Team management &amp;
+communication</h3>
+<h3 id="data-science-project-management">Data science project
+management</h3>
 <ul>
-<li><a href="https://www.datascience-pm.com/">Data Science Project Management</a></li>
+<li><a href="https://www.datascience-pm.com/">Data Science Project
+Management</a></li>
 <li>[Data Science Project Timelines]</li>
 </ul>
-<h3 id="data-management-plans-and-documentation">Data management plans and documentation</h3>
+<h3 id="data-management-plans-and-documentation">Data management plans
+and documentation</h3>
 <ul>
-<li><a href="https://guides.lib.berkeley.edu/how-to-write-good-documentation">UC Berkeley Library How to Write Good Documentation</a></li>
-<li><a href="https://libguides.asu.edu/data/start/checklist">ASU Library Data Management and Sharing plan</a></li>
-<li><a href="https://guides.library.ucla.edu/c.php?g=180539&amp;p=1190233">UCLA Library Data Management Checklist</a></li>
-<li><a href="https://www.library.ucdavis.edu/guide/managing-your-data-a-project-checklist/">UC Davis Library Data Management Checklist</a></li>
-<li><a href="https://blog.dmptool.org/2021/05/19/dmp-competition-winners-dmps-so-good-they-go-to-11/">Examples of strong data management plans from DMPtool.org</a></li>
-<li>Geiger et al. (2018). <a href="https://link.springer.com/article/10.1007/s10606-018-9333-1">The types, roles and practices of documentation in data analytics open source software libraries</a>. Computer Supported Cooperative Work <em>27</em>: 767 - 802.</li>
+<li><a
+href="https://guides.lib.berkeley.edu/how-to-write-good-documentation">UC
+Berkeley Library How to Write Good Documentation</a></li>
+<li><a href="https://libguides.asu.edu/data/start/checklist">ASU Library
+Data Management and Sharing plan</a></li>
+<li><a
+href="https://guides.library.ucla.edu/c.php?g=180539&amp;p=1190233">UCLA
+Library Data Management Checklist</a></li>
+<li><a
+href="https://www.library.ucdavis.edu/guide/managing-your-data-a-project-checklist/">UC
+Davis Library Data Management Checklist</a></li>
+<li><a
+href="https://blog.dmptool.org/2021/05/19/dmp-competition-winners-dmps-so-good-they-go-to-11/">Examples
+of strong data management plans from DMPtool.org</a></li>
+<li>Geiger et al. (2018). <a
+href="https://link.springer.com/article/10.1007/s10606-018-9333-1">The
+types, roles and practices of documentation in data analytics open
+source software libraries</a>. Computer Supported Cooperative Work
+<em>27</em>: 767 - 802.</li>
 </ul>
 <h3 id="data-storage-and-sharing">Data storage and sharing</h3>
 <ul>
-<li><a href="https://www.library.ucsb.edu/research-data-services/repository">UCSB Dryad Data Repository</a></li>
+<li><a
+href="https://www.library.ucsb.edu/research-data-services/repository">UCSB
+Dryad Data Repository</a></li>
 </ul>
 <h3 id="additional-resources">Additional resources</h3>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

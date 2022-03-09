@@ -56,7 +56,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -77,13 +77,14 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
 code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
+
 
   <!--radix_placeholder_meta_tags-->
   <title>EDS 411AB: Week 5: Testing and Faculty Reviews Part 2</title>
@@ -1859,7 +1860,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          return "<p>" + $('#ref-' + ref).html() + "</p>";
+        }).join("\n");
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -2439,7 +2443,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.11.3/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.12.1/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2485,6 +2489,7 @@ Weekly materials
 <a href="week_5.html">Week 5: Testing</a>
 <a href="week_6.html">Week 6: DIP &amp; faculty review work</a>
 <a href="week_7.html">Week 7: Q&amp;A, practice presentations</a>
+<a href="week_10.html">Week 10: Looking back &amp; forward</a>
 </div>
 </div>
 <a href="resources.html">Resources</a>
@@ -2510,7 +2515,8 @@ Weekly materials
 <div class="d-article">
 <h2 id="week-5-materials">Week 5 Materials</h2>
 <ul>
-<li>Week 5 <a href="https://docs.google.com/presentation/d/e/2PACX-1vSfMQhJYYIg9tK885rX51iTqQpUQIYj2jNnIYgsjtAOKm2uKYxZ2ce7jYPaA1j5RPLYO6F6Tcms0QL3/pub?start=false&amp;loop=false&amp;delayms=3000">Slides</a></li>
+<li>Week 5 <a
+href="https://docs.google.com/presentation/d/e/2PACX-1vSfMQhJYYIg9tK885rX51iTqQpUQIYj2jNnIYgsjtAOKm2uKYxZ2ce7jYPaA1j5RPLYO6F6Tcms0QL3/pub?start=false&amp;loop=false&amp;delayms=3000">Slides</a></li>
 </ul>
 <h2 id="week-5-goals">Week 5 Goals:</h2>
 <ul>
@@ -2522,31 +2528,50 @@ Weekly materials
 <h2 id="todays-timeline">Today’s timeline:</h2>
 <ul>
 <li><strong>1:00 - 1:10</strong> - Intro, questions, wins</li>
-<li><strong>1:10 - 1:30</strong> - How to present a data visualization</li>
+<li><strong>1:10 - 1:30</strong> - How to present a data
+visualization</li>
 <li><strong>1:30 - 1:50</strong> - Mini-lecture - Testing</li>
 <li><strong>1:50 - 2:20</strong> - Breaking things flash talks</li>
 <li><em>2:20 - 2:35 - Break</em></li>
-<li><strong>2:35 - 4:00</strong> - Group discussions, peer feedback &amp; work: Testing plan</li>
+<li><strong>2:35 - 4:00</strong> - Group discussions, peer feedback
+&amp; work: Testing plan</li>
 <li><em>4:00 - 4:15 - Break</em></li>
 <li><strong>4:15 - 4:45</strong> - Capstone Faculty Reviews: Part 2</li>
 <li><em>4:45 - 5:00 - Group time</em></li>
 </ul>
-<h2 id="what-you-should-do-before-next-week">What you should do before next week:</h2>
+<h2 id="what-you-should-do-before-next-week">What you should do before
+next week:</h2>
 <ul>
 <li>Draft Testing Plan section of Design &amp; Implementation Plan</li>
 <li>Continue editing and weaving drafted sections of D&amp;I Plan</li>
-<li>Have a full draft of your Design &amp; Implementation plan ready to share with another group to get feedback</li>
-<li>Prepare a skeleton slide deck for your faculty review presentation (like an outline, but with the sections as slide headers). Populate with stuff you have already.</li>
+<li>Have a full draft of your Design &amp; Implementation plan ready to
+share with another group to get feedback</li>
+<li>Prepare a skeleton slide deck for your faculty review presentation
+(like an outline, but with the sections as slide headers). Populate with
+stuff you have already.</li>
 </ul>
 <h2 id="resources-for-testing">Resources for testing</h2>
 <ul>
-<li><p>Jeff Perkel (2022) <a href="https://www.nature.com/articles/d41586-022-00217-0">How to fix your scientific coding errors</a>. Nature Technology Feature.</p></li>
-<li><p><a href="https://dataoneorg.github.io/Education/bp_step/assure/">DataONE Best Practices - Data Assurance</a></p></li>
-<li><p>Google <a href="https://developers.google.com/machine-learning/testing-debugging">Testing and Debugging in ML</a></p></li>
-<li><p>Fay et al. <a href="https://engineering-shiny.org/build-yourself-safety-net.html">Engineering Production-Grade Shiny Apps Ch. 11 - Build yourself a safety net</a></p></li>
-<li><p>Taschuk and Wilson (2017) <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005412">Ten simple rules for making research software more robust</a>. PLOS Comp Bio.</p></li>
+<li><p>Jeff Perkel (2022) <a
+href="https://www.nature.com/articles/d41586-022-00217-0">How to fix
+your scientific coding errors</a>. Nature Technology Feature.</p></li>
+<li><p><a
+href="https://dataoneorg.github.io/Education/bp_step/assure/">DataONE
+Best Practices - Data Assurance</a></p></li>
+<li><p>Google <a
+href="https://developers.google.com/machine-learning/testing-debugging">Testing
+and Debugging in ML</a></p></li>
+<li><p>Fay et al. <a
+href="https://engineering-shiny.org/build-yourself-safety-net.html">Engineering
+Production-Grade Shiny Apps Ch. 11 - Build yourself a safety
+net</a></p></li>
+<li><p>Taschuk and Wilson (2017) <a
+href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005412">Ten
+simple rules for making research software more robust</a>. PLOS Comp
+Bio.</p></li>
 </ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
