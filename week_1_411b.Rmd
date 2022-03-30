@@ -1,0 +1,18 @@
+---
+title: "Week 1: Welcome to Spring Quarter"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## EDS 411B Week 1 Materials:
+
+- Week 1 [Slides](https://docs.google.com/presentation/d/e/2PACX-1vSddbcWqwumEFfo7q2ua1IHB8SkQOhv6nOffySlj4eSp7MxXSUqh3i8uip7a_BAW2kThx8H2_kAkG0N/pub?start=false&loop=false&delayms=3000)
+
+## Today: 
+
+- 1:00 - 1:15: Course intro & logistics
+- 1:15 - 1:45: Spring Quarter deliverables overview
+- 1:45 - 4:30: Dedicated work time
+- 4:30 - 4:45: One cool thing - bookdown

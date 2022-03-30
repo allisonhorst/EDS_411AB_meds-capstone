@@ -7,7 +7,7 @@ navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "Weekly materials"
+    - text: "EDS 411A Weekly materials"
       menu:
         - text: "Week 1: Hello, (Capstone) world!"
           href: week_1.html
@@ -25,6 +25,10 @@ navbar:
           href: week_7.html
         - text: "Week 10: Looking back & forward"
           href: week_10.html
+    - text: "EDS 411B Weekly Materials"
+      menu:
+        - text: "Week 1: Welcome to Spring Quarter"
+          href: week_1_411b.html
     - text: "Resources"
       href: resources.html
     - icon: fab fa-github
