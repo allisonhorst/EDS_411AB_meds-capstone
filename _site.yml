@@ -29,6 +29,8 @@ navbar:
       menu:
         - text: "Week 1: Welcome to Spring Quarter"
           href: week_1_411b.html
+        - text: "Week 2: Getting what you need from clients"
+          href: week_2_411b.html
     - text: "Resources"
       href: resources.html
     - icon: fab fa-github

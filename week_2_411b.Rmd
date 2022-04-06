@@ -1,0 +1,33 @@
+---
+title: "Week 2: Getting what you need from clients"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## EDS 411B Week 2 Materials:
+
+- Week 2 [Slides](https://docs.google.com/presentation/d/e/2PACX-1vQt45e3UtPALYOiAk4YiTvbNxaSyZBICgGjanx5-QN-Uf5Mw0UuB22sj7RElmncbZtjDY9-io5iRnkj/pub?start=false&loop=false&delayms=3000)
+
+## Today: 
+
+- 1:00 - 1:15: Course intro & logistics
+- 1:15 - 2:00: Questions for clients / discussion
+- 1:45 - 4:30: Dedicated work time
+- 4:30 - 4:45: One cool thing - flexdashboard
+
+## Links to questions for clients
+
+- [Example questions for data analytics projects](https://www.thedataschool.com.au/kieran-adair/data-skills-34-questions-to-ask-your-client-before-starting-any-data-analytics-project/) 
+
+- [Example questions for web design projects](https://martech.org/100-questions-you-must-ask-when-developing-web-site/) 
+
+- [Example questions for software development projects](https://www.synotive.com/blog/software-development-client-questionnaire)  
+
+## `flexdashboard` resources
+
+- Home: https://pkgs.rstudio.com/flexdashboard/
+- Layouts: https://pkgs.rstudio.com/flexdashboard/articles/layouts.html
+- Examples: https://pkgs.rstudio.com/flexdashboard/articles/examples.html
+- My example: https://allisonhorst.github.io/flexdashboard_example/flex
