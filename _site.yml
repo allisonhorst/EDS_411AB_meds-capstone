@@ -31,6 +31,8 @@ navbar:
           href: week_1_411b.html
         - text: "Week 2: Getting what you need from clients"
           href: week_2_411b.html
+        - text: "Week 3: Public presentations"
+          href: week_3_411b.html
     - text: "Resources"
       href: resources.html
     - icon: fab fa-github
