@@ -1,0 +1,24 @@
+---
+title: "Week 3: MEDS Public presentations"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## EDS 411B Week 3 Materials:
+
+- Week 3 [Slides](https://docs.google.com/presentation/d/e/2PACX-1vQ7PbHzE-tW7gCLDAS43wJ0P1WZCaJFsblkbdDkrQa_WF9lWwsueQ1vdhaJOBQAQZFIRk0cRx6FfpHJ/pub?start=false&loop=false&delayms=3000)
+
+## Today: 
+
+- 1:00 - 1:15: Course intro & logistics
+- 1:15 - 2:15: Public presentations
+- 1:45 - 4:30: Dedicated work time
+- 4:30 - 4:45: One cool thing - quarto baby intro
+
+## Quarto links
+
+- https://quarto.org/
+- Alison Hill's post ["We don't talk about Quarto...until now!"](https://www.apreshill.com/blog/2022-04-we-dont-talk-about-quarto/)
+- My [repo w/ example](https://github.com/allisonhorst/quarto_demo)
