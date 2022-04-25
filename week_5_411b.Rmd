@@ -1,0 +1,24 @@
+---
+title: "Week 5: Work week"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## EDS 411B Week 5:
+
+- No slides, dedicated work time!
+
+## Today: 
+
+- 1:00 - 1:15: Reminders & Questions
+- 1:15 - 4:30: Dedicated work time
+- 4:30 - 4:50: One cool thing: `data.table` & `dtplyr`
+
+## `data.table` resources
+
+- [My demo repo](https://github.com/allisonhorst/datatable-example)
+- [Introduction to `data.table`](https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html)
+- Tidyverse [`dtplyr`](https://dtplyr.tidyverse.org/) documentation 
+- [`tictoc`](https://cran.r-project.org/web/packages/tictoc/index.html) package to time stuff

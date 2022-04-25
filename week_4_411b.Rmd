@@ -1,0 +1,23 @@
+---
+title: "Week 4: Work week"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## EDS 411B Week 4:
+
+- No slides, dedicated work time!
+
+## Today: 
+
+- 1:00 - 1:15: Reminders & Questions
+- 1:15 - 4:30: Dedicated work time
+- 4:30 - 4:50: One cool thing: Web scraping in R with [`rvest`](https://rvest.tidyverse.org/)
+
+## `rvest` links
+
+- Tidyverse [`rvest` documentation](https://rvest.tidyverse.org/)
+- My [tiny example](https://github.com/allisonhorst/rvest-example)
+- [`rvest`: Easy web scraping with R](https://www.rstudio.com/blog/rvest-easy-web-scraping-with-r/) blog post by Hadley Wickham 
