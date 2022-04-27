@@ -13,8 +13,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Today: 
 
 - 1:00 - 1:15: Reminders & Questions
-- 1:15 - 4:30: Dedicated work time
-- 4:30 - 4:50: One cool thing: `data.table` & `dtplyr`
+- 1:15 - 3:30: Dedicated work time
+- 3:30 - 3:50: One cool thing: `data.table` & `dtplyr`
 
 ## `data.table` resources
 
