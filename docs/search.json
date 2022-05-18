@@ -5,119 +5,133 @@
       "title": "Assignments",
       "author": [],
       "contents": "\n\nTO UPDATE THIS PAGE: Open and edit the assignments.Rmd\nfile, in the project root, to delete this placeholder text and customize\nwith your own!\n\nAssignment materials and\ndates\nAssignment materials\nAssigned\nDue date\nA link to the repo\n2021-01-01\n2021-01-08\nA link to the repo\n2021-01-15\n2021-01-23\nA link to the repo\n2021-02-01\n2021-02-09\nA link to the repo\n2021-02-14\n2021-02-23\nAssignment expectations and\ngrading\nThis might also go on the home page & in syllabus\nOr could reinforce here\n\n\n\n\n",
-      "last_modified": "2022-05-03T22:44:30-07:00"
+      "last_modified": "2022-05-18T08:22:44-07:00"
     },
     {
       "path": "index.html",
       "title": "EDS 411AB: MEDS Capstone",
       "author": [],
       "contents": "\n\n\n\n\n\n\nImage: a single green plant seedling in red soil. Photo by\nDavid\nvon Diemar on\nUnsplash\n\n\n\nSyllabi\nEDS\n411A Syllabus\nEDS\n411B Syllabus\nEDS 411B Student hours\nSign up for available 30-minute meetings at this appointment\npage.\nCourse description\nThe goal of EDS 411A is to facilitate student learning, work and\nprogress on their MEDS Capstone project through lessons, activities,\nsupervised and unsupervised project work, and peer review and feedback.\nAdditionally, EDS 411A provides opportunities for professional and\ncareer development (e.g. presentation skills, writing and editing,\nclient relations, team science, panel discussions, and conflict\nresolution).\nThroughout the course, students will build on skills they have\nlearned in prior MEDS courses to implement them in a real-world data\nscience project, including:\nPrepare professional documentation for a data\nscience project through the Design and Implementation Plan, and\nTechnical Documentation\nPractice project management and reproducible\nworkflows using tools and strategies learned in MEDS courses,\nestablishing clear expectations for group roles and participation, and\nwith frequent updates within and across groups\nContinue to build real-world skills for data science\nprojects through continued collaborative work in git, data\nanalyses and statistics, data visualization and communication, and\nmore\nImplement professional skills for data science\ncareers including code and documentation peer review, team and\nclient relations, scheduling and organizing tools & strategies, and\nconflict resolution & communication\nNote: Weeks 7 & 8 are practice presentations\n(for Faculty Reviews) and directed work on projects. Week 9 is Faculty\nReviews. That’s why there aren’t shared materials for those weeks.\n\n\n\n",
-      "last_modified": "2022-05-03T22:44:32-07:00"
+      "last_modified": "2022-05-18T08:22:45-07:00"
     },
     {
       "path": "resources.html",
       "title": "Capstone resources",
       "author": [],
       "contents": "\nBren & MEDS\nCapstone official information\nBren\nSchool Student Resources page\nMEDS Capstone\nGuidelines\nCourse & 411A Resources\nGetting\nCapstone help “Order of Operations” schematic\nMEDS Capstone Timeline 2021\n- 2022\nMilestones described below are in addition to project work &\nprogress agreed on between advisors and capstone groups.\nWinter Quarter (Week)\nMilestone\n1 - 6\nDraft Design & Implementation Plan\n6 (end)\nSubmit Design & Implementation Plan to faculty advisors\n7 - 8\nRevise Design & Implementation Plan\n9\nFaculty Reviews\n10\nFinal Design & Implementation Plan due (last day of EDS\n411A)\nTeam management &\ncommunication\nData science project\nmanagement\nData Science Project\nManagement\n[Data Science Project Timelines]\nData management plans\nand documentation\nUC\nBerkeley Library How to Write Good Documentation\nASU Library\nData Management and Sharing plan\nUCLA\nLibrary Data Management Checklist\nUC\nDavis Library Data Management Checklist\nExamples\nof strong data management plans from DMPtool.org\nGeiger et al. (2018). The\ntypes, roles and practices of documentation in data analytics open\nsource software libraries. Computer Supported Cooperative Work\n27: 767 - 802.\nData storage and sharing\nUCSB\nDryad Data Repository\nAdditional resources\n\n\n\n",
-      "last_modified": "2022-05-03T22:44:33-07:00"
+      "last_modified": "2022-05-18T08:22:46-07:00"
     },
     {
       "path": "week_1_411b.html",
       "title": "Week 1: Welcome to Spring Quarter",
       "author": [],
       "contents": "\nEDS 411B Week 1 Materials:\nWeek 1 Slides\nToday:\n1:00 - 1:15: Course intro & logistics\n1:15 - 1:45: Spring Quarter deliverables overview\n1:45 - 4:30: Dedicated work time\n4:30 - 4:45: One cool thing - bookdown\n\n\n\n",
-      "last_modified": "2022-05-03T22:44:33-07:00"
+      "last_modified": "2022-05-18T08:22:46-07:00"
     },
     {
       "path": "week_1.html",
       "title": "Week 1: Hello, (Capstone) world!",
       "author": [],
       "contents": "\nWeek 1 Materials\nWeek 1 Slides\nWeek 1 Goals:\nEDS 411AB course introduction\nWhat are we doing here?\nWhat is the time expectation?\nHow will I be evaluated?\nHow do we get help?\n\nTell us about your project! 2-minute flash talks\nWrite a short paragraph on your project for the Bren website\nFinance team visit - how to use your Capstone funds\nDecide on a project alias\nDefine team roles\n1:00pm - 1:30pm: EDS 411AB\nCourse Intro\nEDS\n411A Course Intro Slides\n1:30pm - 2:15pm: Project Flash\nTalks\nSpend 15 minutes creating then practicing a 2 to 3 minute, 4 slide\npresentation on your project. The 4 slides should be (1) Cover slide,\n(2) Background, (3) Project motivation (or problem / knowledge gap), (4)\nProject objective(s). Your group can decide how you break up the\npresentation - 2 presenters minimum.\nBreak: 2:15pm - 2:30pm PST\n2:30pm -\n3:00pm: Write a summary for the Bren website\nEach MEDS Capstone project will be featured on the Bren website.\nSpend ~10 minutes browsing some MESM project summaries to get\nan idea of what is expected. Then, start drafting your paragraph for the\nwebsite in the shared document.\nContinue to work on your summary after 411A this week. Add a\nfinalized version of your summary to this\nshared google doc by Monday 1/11 at 5pm. We will then share that\ndocument with Melissa Van De Werfhorst (Bren Communications Director) to\npost your summaries to the Bren website.\nFinance - using\nyour group money (3:00pm - 3:30pm)\nMembers of the Bren finance team will join via Zoom to go over\nimportant information about using your Capstone budget & how to use\nit.\nBreak: 3:30pm - 3:45pm\n3:45pm - 4:00pm: Team alias!\nYour team alias - a short, memorable abbreviated name for your\nproject - serves multiple professional purposes, including:\nThe directory name on Taylor\nYour group’s email prefix\nUse in MEDS Capstone communication with faculty and staff\nSpend 15 minutes brainstorming group aliases. Keep in mind that this\nwill likely be part of a file path, so using good practices for naming\nthings is in your best interest. Some examples of team aliases from\nprevious Bren MESM projects are:\nnadatrace (evaluated opportunities for Nada\nGroceries to minimize waste)\nworthwhale (economic valuation of whale watching\n& marine planning in Dominica)\nmaricultura (assessed Brazil’s aquaculture\npotential)\njusthealth (investigated relationships between air\nquality and diabetes risk in California)\nOnce you have decided on your team alias, send it to Brad & Kat\nso they can set up your Taylor directory and group email address.\n4:00 - 5:00pm - Define\nteam roles and report back\nAll teams are required to have a project manager (PM) and\ncommunication manager (CM). Other roles should be decided based on\nproject-specific needs and expectations. Discuss with your team - in\naddition to the PM and CM, what do you think are the most important\nroles for the success of the project?\nAdd your proposed roles to this\nshared doc by the end of the day. You should discuss the proposed\nroles with your faculty advisor, and make updates to the Googlesheet to\nfinalize your project roles by Friday, January 11th.\nWhat you should do before\nnext week:\nAll members should read through the MEDS Capstone\nGuidelines\nPrepare a first draft of the Team Management Plan section of your\nDesign & Implementation Plan (and feel free to work on other\nsections!)\nLet Brad & Kat know your team alias ASAP (so they can create\nyour Taylor directory & email)\nFinalize your summary paragraph for the Bren website, add to this\nshared doc by 5pm on Monday 1/11\nMake sure your project roles are updated on the shared\nGooglesheet\n\n\n\n",
-      "last_modified": "2022-05-03T22:44:34-07:00"
+      "last_modified": "2022-05-18T08:22:47-07:00"
     },
     {
       "path": "week_10.html",
       "title": "Week 10: Course wrap-up & what to expect in Spring",
       "author": [],
       "contents": "\nWeek 10 Materials\nWeek 10 Slides\nWeek 10 Goals:\nRecap Faculty Reviews\nEDS 411A Course Recap\nWhat to expect in EDS 411B\nSelf & peer evaluations, course evaluation\nToday’s timeline:\n1:00 - 1:20 - Faculty review recap &\nbrainstorm\n1:20 - 3:30 - Work on your project\n3:30 - 4:00 - Looking forward to Spring\n4:00 - end - Self & peer evaluations, EDS 411A\nevaluations\nHave a great Spring Break!!!\n\n\n\n",
-      "last_modified": "2022-05-03T22:44:34-07:00"
+      "last_modified": "2022-05-18T08:22:47-07:00"
     },
     {
       "path": "week_2_411b.html",
       "title": "Week 2: Getting what you need from clients",
       "author": [],
       "contents": "\nEDS 411B Week 2 Materials:\nWeek 2 Slides\nToday:\n1:00 - 1:15: Course intro & logistics\n1:15 - 2:00: Questions for clients / discussion\n1:45 - 4:30: Dedicated work time\n4:30 - 4:45: One cool thing - flexdashboard\nLinks to questions for\nclients\nExample\nquestions for data analytics projects\nExample\nquestions for web design projects\nExample\nquestions for software development projects\nflexdashboard\nresources\nHome: https://pkgs.rstudio.com/flexdashboard/\nLayouts: https://pkgs.rstudio.com/flexdashboard/articles/layouts.html\nExamples: https://pkgs.rstudio.com/flexdashboard/articles/examples.html\nMy example: https://allisonhorst.github.io/flexdashboard_example/flex\n\n\n\n",
-      "last_modified": "2022-05-03T22:44:35-07:00"
+      "last_modified": "2022-05-18T08:22:48-07:00"
     },
     {
       "path": "week_2.html",
       "title": "Week 2: Working with clients, and starting solution design",
       "author": [],
       "contents": "\nWeek 2 Materials\nWeek 2 Slides\nWeek 2 Goals:\nAddress questions on Team Management Plan\nGroup sharing: what worked & didn’t from Week 1?\nPeer review: Team Management Plan\nTips for working with clients on a data science project\nIntroducing the Solution Design\nSketching out & presenting a Solution Design schematic\nToday’s timeline:\n1:00 - 1:30 - Reminders, Meeting Tips, Questions & “What\nworked?”\n1:30 - 2:15 - Team management plan peer review\n2:15 - 2:30 - Break\n2:30 - 3:00 - Working with a client - a few big tips\n3:00 - 3:15 - Introducing the Solution Design section\n3:15 - 3:45 - Sketchy Solution Design\n3:45 - 4:00 - Break\n4:00 - 4:30 - Present your sketch (3 minutes each group)\n4:30 - 4:45 - Clarify questions you have for Solution Design\n4:50 - 5:00 - Designated team time\nWhat you should do before\nnext week:\nMake your list of Products and Deliverables (section e of D&I\nPlan)\nDrafted timeline for your work (unrelated to Bren deliverables -\nthis should be specifically for your data science product work). Review\ntimeline with advisor / client this week or next.\nSkeleton draft of Solution Design, with a schematic to share in 411A\nnext week. The point is to clarify what you don’t know and still need.\nSchematics are encouraged in your D&I plan, so this could / should\nend up being a final figure in your submitted document.\nBased on your Team Management Plan, create your repo (most likely)\nor whatever tool you’re using for project accountability & progress\ntracking. Add action items for each person, each week (i.e. each person\nshould have a “to-do” list). Share with both faculty advisors.\n\n\n\n",
-      "last_modified": "2022-05-03T22:44:35-07:00"
+      "last_modified": "2022-05-18T08:22:48-07:00"
     },
     {
       "path": "week_3_411b.html",
       "title": "Week 3: MEDS Public presentations",
       "author": [],
       "contents": "\nEDS 411B Week 3 Materials:\nWeek 3 Slides\nToday:\n1:00 - 1:15: Course intro & logistics\n1:15 - 2:15: Public presentations\n1:45 - 4:30: Dedicated work time\n4:30 - 4:45: One cool thing - quarto baby intro\nQuarto links\nhttps://quarto.org/\nAlison Hill’s post “We\ndon’t talk about Quarto…until now!”\nMy repo w/\nexample\n\n\n\n",
-      "last_modified": "2022-05-03T22:44:36-07:00"
+      "last_modified": "2022-05-18T08:22:49-07:00"
     },
     {
       "path": "week_3.html",
       "title": "Week 3: Problems, mishaps & blameless postmortems",
       "author": [],
       "contents": "\nWeek 3 Materials\nWeek 3 Slides\nWeek 3 Goals:\nAddress questions on Solution Design\nShare a “Weekly Win”\nPeer review & sharing: Solution Design\n“State of your data” blitz\nIntroduction to the blameless postmortem\nClarifying the problem / gap that your project\naddresses\nToday’s timeline:\n1:00 - 1:30 - Reminders, questions & share some\nwins / ideas\n1:30 - 2:00 - Solution design group sharing &\nquestions / gaps clarified\n2:00 - 2:10 - Break\n2:10 - 2:25 - Group time (flash talk prep)\n2:25 - 3:00 - Flash talks (solution design\noverview)\n3:00 - 3:20 - “State of your data” blitz\n3:20 - 3:30 - Break\n3:30 - 4:00 - Mishaps & blameless postmortems\n(mini-lecture / discussion)\n4:00 - 4:15 - What’s your problem? (research\nstorytelling mini-lecture)\n4:15 - 4:45 - From background to specific problem /\ngap - directed work\n4:45 - 5:00 - Wrap up & group time\nWhat you should do before\nnext week:\nDraft Problem Statement and Objectives section\nof Design & Implementation Plan\nContinue work on Solution Design section (full draft expected, or\nplaceholders where gaps exist)\nNext week be prepared to present:\nA 3 minute flash talk on Timeline & Milestones (2 presenters\nminimum)\nA 3 - 4 minute presentation (2 presenters minimum) with the\nfollowing:\nCover slide (1 slide)\nBackground (1 - 2 slides)\nProblem / gap (1 slide)\nObjectives (1 slide)\n\n\n",
-      "last_modified": "2022-05-03T22:44:36-07:00"
+      "last_modified": "2022-05-18T08:22:49-07:00"
     },
     {
       "path": "week_4_411b.html",
       "title": "Week 4: Work week",
       "author": [],
       "contents": "\nEDS 411B Week 4:\nNo slides, dedicated work time!\nToday:\n1:00 - 1:15: Reminders & Questions\n1:15 - 4:30: Dedicated work time\n4:30 - 4:50: One cool thing: Web scraping in R with rvest\nrvest links\nTidyverse rvest\ndocumentation\nMy tiny\nexample\nrvest:\nEasy web scraping with R blog post by Hadley Wickham\n\n\n\n",
-      "last_modified": "2022-05-03T22:44:37-07:00"
+      "last_modified": "2022-05-18T08:22:49-07:00"
     },
     {
       "path": "week_4.html",
       "title": "Week 4: Faculty reviews, responding to questions, postmortems, and flash talks",
       "author": [],
       "contents": "\nWeek 4 Materials\nWeek 4 Slides\nWeek 4 Goals:\nFlash talks: timelines & milestones, background &\nobjectives\nFaculty Review: what to expect, logistics, overview\nResponding to questions\nPostmortems\nToday’s timeline:\n1:00 - 1:20 - Reminders, questions & share some wins /\nideas\n1:20 - 1:45 - “State of your data” discussion (group sharing)\n1:45 - 2:45 - Flash talks: Background, problem, objectives\n2:45 - 3:00 - Break\n3:00 - 3:45 - Faculty Reviews Part 1: logistics, content,\nquestions\n3:45 - 4:00 - Break\n4:00 - 4:30 - Flash talks: Timelines & milestones\n4:30 - 4:50 - Productive postmortems\n4:50 - 5:00 - Group time\nWhat you should do before\nnext week:\nDraft Documentation Plan section of Design & Implementation\nPlan\nContinue editing and weaving drafted sections of D&I Plan\nRead this\nshort post on different types of software testing, and this one\non data quality, to understand some different testing and data quality\nflavors (we’ll discuss more next week)\nBrainstorm different ways you are concerned your product and/or data\ncould break / fail. Prepare a 2-slide flash talk (3 minutes, 2\npresenters) to share expected breaks. This will motivate group\ndiscussions & feedback on product testing.\n\n\n\n",
-      "last_modified": "2022-05-03T22:44:37-07:00"
+      "last_modified": "2022-05-18T08:22:50-07:00"
     },
     {
       "path": "week_5_411b.html",
       "title": "Week 5: Work week",
       "author": [],
       "contents": "\nEDS 411B Week 5:\nNo slides, dedicated work time!\nToday:\n1:00 - 1:15: Reminders & Questions\n1:15 - 3:30: Dedicated work time\n3:30 - 3:50: One cool thing: data.table &\ndtplyr\ndata.table resources\nMy demo\nrepo\nIntroduction\nto data.table\nTidyverse dtplyr\ndocumentation\ntictoc\npackage to time stuff\n\n\n\n",
-      "last_modified": "2022-05-03T22:44:38-07:00"
+      "last_modified": "2022-05-18T08:22:50-07:00"
     },
     {
       "path": "week_5.html",
       "title": "Week 5: Testing and Faculty Reviews Part 2",
       "author": [],
       "contents": "\nWeek 5 Materials\nWeek 5 Slides\nWeek 5 Goals:\nLessons: flavors of testing\nPart 2 of Capstone Faculty Review Information\nDirected work: testing brainstorm and peer feedback\nPractice presenting a graph\nToday’s timeline:\n1:00 - 1:10 - Intro, questions, wins\n1:10 - 1:30 - How to present a data\nvisualization\n1:30 - 1:50 - Mini-lecture - Testing\n1:50 - 2:20 - Breaking things flash talks\n2:20 - 2:35 - Break\n2:35 - 4:00 - Group discussions, peer feedback\n& work: Testing plan\n4:00 - 4:15 - Break\n4:15 - 4:45 - Capstone Faculty Reviews: Part 2\n4:45 - 5:00 - Group time\nWhat you should do before\nnext week:\nDraft Testing Plan section of Design & Implementation Plan\nContinue editing and weaving drafted sections of D&I Plan\nHave a full draft of your Design & Implementation plan ready to\nshare with another group to get feedback\nPrepare a skeleton slide deck for your faculty review presentation\n(like an outline, but with the sections as slide headers). Populate with\nstuff you have already.\nResources for testing\nJeff Perkel (2022) How to fix\nyour scientific coding errors. Nature Technology Feature.\nDataONE\nBest Practices - Data Assurance\nGoogle Testing\nand Debugging in ML\nFay et al. Engineering\nProduction-Grade Shiny Apps Ch. 11 - Build yourself a safety\nnet\nTaschuk and Wilson (2017) Ten\nsimple rules for making research software more robust. PLOS Comp\nBio.\n\n\n\n",
-      "last_modified": "2022-05-03T22:44:38-07:00"
+      "last_modified": "2022-05-18T08:22:51-07:00"
     },
     {
       "path": "week_6_411b.html",
       "title": "Week 6: Prep for publics",
       "author": [],
       "contents": "\nEDS 411B Week 6:\nSlides\nToday:\n1:00 - 1:15: Reminders, Q&A (& check times for practice\npresentations)\n1:15 - 1:45: Presentations, warming back up\n1:45 - 2:00: Abstract for Public Presentations (due 5/13)\n2:00 - 4:30: Dedicated work time + presentation check-ins\n4:30 - 4:50: One cool thing - ggiraph\nSee the Week\n3 Slides for info on public presentations.\nggiraph resources\nMy\ndemo repo\nggiraph\nwebsite\n\nToday’s “one cool thing” was inspired by Dr. Alison Hill!\n\n\n\n",
-      "last_modified": "2022-05-03T22:44:39-07:00"
+      "last_modified": "2022-05-18T08:22:51-07:00"
     },
     {
       "path": "week_6.html",
       "title": "Week 6: DIP & faculty review work",
       "author": [],
       "contents": "\nWeek 6 Materials\nWeek 6 Slides\nWeek 6 Goals:\nQuick tips: Slide design\nOpen work session: DIP & faculty review presentations\nAllison rotating (25 min / group)\n\n\n\n",
-      "last_modified": "2022-05-03T22:44:39-07:00"
+      "last_modified": "2022-05-18T08:22:52-07:00"
+    },
+    {
+      "path": "week_7_411b.html",
+      "title": "Week 7: Practice presentations",
+      "author": [],
+      "contents": "\nEDS 411B Week 7:\nNo Slides\nGroup rough practice presentations\nOne cool thing: generative\nart!\nInspired by Danielle\nNavarro\nExamples using jasmines and flametree\nDemo repo:\n\n\n\n",
+      "last_modified": "2022-05-18T08:22:52-07:00"
     },
     {
       "path": "week_7.html",
       "title": "Week 7: Responding to questions, practice presentations",
       "author": [],
       "contents": "\nWeek 7 Materials\nWeek 7 Slides\nWeek 7 Goals:\nTips for responding to questions\nIdentify question bins and start brainstorming\nPractice presentations and feedback for Faculty Reviews\nDiscuss strategies for delegating tasks (efficient coworking)\nToday’s timeline:\n1:00 - 1:15 - Intro, questions, reminders\n1:15 - 1:45 - Efficient coworking discussion\n1:45 - 2:15 - Mini-lecture - Question bins\n2:15 - 2:30 - Break\n2:30 - 3:00 - Identify your question bins,\nbrainstorm 2 - 3 questions per bin\n3:00 - 5:00 - Practice presentations and\nfeedback\nWhat you should do\nbefore next week for 411A:\nEdit your Design & Implementation Plan once feedback\nreceived\nIterate on your presentation (and practice giving it)\nContinue adding to your question bins\n\n\n\n",
-      "last_modified": "2022-05-03T22:44:40-07:00"
+      "last_modified": "2022-05-18T08:22:53-07:00"
+    },
+    {
+      "path": "week_8_411b.html",
+      "title": "Week 8: Work week and presentations",
+      "author": [],
+      "contents": "\nEDS 411B Week 8:\nNo slides\nToday:\n1:00 - 1:15: Reminders, Q&A\n1:15 - 4:15: Dedicated work time, Allison presentation\ncheck-ins\n4:15 - 4:50: One cool thing - tesseract for OCR\nReminder: See the Week\n3 Slides for info on public presentations.\ntesseract resources\nMy\ndemo\nFork the\nrepo\n\n\n\n",
+      "last_modified": "2022-05-18T08:22:53-07:00"
     }
   ],
   "collections": []

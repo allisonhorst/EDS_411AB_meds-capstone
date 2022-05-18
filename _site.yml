@@ -39,6 +39,10 @@ navbar:
           href: week_5_411b.html
         - text: "Week 6: Prep for publics"
           href: week_6_411b.html
+        - text: "Week 7: Practice presentations"
+          href: week_7_411b.html
+        - text: "Week 8: Work week"
+          href: week_8_411b.html
     - text: "Resources"
       href: resources.html
     - icon: fab fa-github

@@ -1,0 +1,24 @@
+---
+title: "Week 8: Work week and presentations"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## EDS 411B Week 8:
+
+-   No slides
+
+## Today:
+
+-   1:00 - 1:15: Reminders, Q&A
+-   1:15 - 4:15: Dedicated work time, Allison presentation check-ins
+-   4:15 - 4:50: One cool thing - `tesseract` for OCR
+
+Reminder: See the [Week 3 Slides](https://docs.google.com/presentation/d/e/2PACX-1vQ7PbHzE-tW7gCLDAS43wJ0P1WZCaJFsblkbdDkrQa_WF9lWwsueQ1vdhaJOBQAQZFIRk0cRx6FfpHJ/pub?start=false&loop=false&delayms=3000) for info on public presentations.
+
+## `tesseract` resources
+
+-   [My demo](https://allisonhorst.github.io/tesseract-demo/demo.html)
+-   [Fork the repo](https://github.com/allisonhorst/tesseract-demo)
