@@ -1,0 +1,91 @@
+---
+title: "Week 8: Work week and presentations"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(pins)
+```
+
+## EDS 411B Week 9:
+
+-   [Slides](https://docs.google.com/presentation/d/e/2PACX-1vQpYjJ0rGxmqMvHADDE6hPIJZSkAfX5laApundeWgUodVSPEilEMC2e0VyVZUfpdTo8vKortqZd8w7-/pub?start=false&loop=false&delayms=3000)
+
+## Today:
+
+-   1:00 - 1:15: Reminders, Q&A
+-   1:15 - 4:00: Your time
+-   4:00 - 4:15: One cool thing - `pins` for using, sharing, finding R resources
+
+## Meet `pins`!
+
+The `pins` package from RStudio lets you "publish data, models, and other R objects, making it easy to share them across projects and with your colleagues. You can pin objects to a variety of pin boards, including folders (to share on a networked drive or with services like DropBox), RStudio Connect, Amazon S3, Azure storage and Microsoft 365 (OneDrive and SharePoint). Pins can be automatically versioned, making it straightforward to track changes, re-run analyses on historical data, and undo mistakes"
+
+I'm just going to show a very basic example of creating a pin board locally, adding some stuff to it, then accessing them from the board.
+
+### Set-up
+
+- Install `pins`: `install.packages("pins")`
+- Attach: `library(pins)`
+
+### Make a local board
+
+For example, you can store a board as `my_board`.
+
+- `my_board <- pins::board_local()`
+
+### Add something to it
+
+#### Add a dataset to your board
+
+Make the dataset: 
+
+```{r, eval = FALSE}
+cool_data <- tribble(
+  ~teddy, ~khora,
+  1, 2, 
+  3, 4,
+  5, 7
+)
+```
+
+Add it to the board: 
+
+```{r, eval = FALSE}
+my_board %>% pin_write(cool_data, "cool_data", versioned = TRUE)
+```
+
+### Read in something from your board
+
+```{r, eval = FALSE}
+my_board %>% pin_read("cool_data")
+```
+
+### See some metadata
+
+```{r, eval = FALSE}
+my_board %>% pin_meta("cool_data")
+```
+
+### Check the versions
+
+```{r, eval = FALSE}
+my_board %>% pin_versions("cool_data")
+```
+
+### Update the data, see new version! 
+
+### Want to work with an older version? 
+
+Use the version ID.
+
+```{r, eval = FALSE}
+my_board %>% pin_read("cool_data", version = "20220525T171008Z-476f6")
+```
+
+## `pins` resources
+
+-   [`pins` website from RStudio](https://pins.rstudio.com/)
+-   [`pins` package vignette](https://cran.r-project.org/web/packages/pins/vignettes/pins.html)
+-   [Video introducing `pins` with Jesse Mostipak and Katie Masiello](https://www.youtube.com/watch?v=3Yk6U_XqxNo)

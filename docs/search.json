@@ -132,6 +132,13 @@
       "author": [],
       "contents": "\nEDS 411B Week 8:\nNo slides\nToday:\n1:00 - 1:15: Reminders, Q&A\n1:15 - 4:15: Dedicated work time, Allison presentation\ncheck-ins\n4:15 - 4:50: One cool thing - tesseract for OCR\nReminder: See the Week\n3 Slides for info on public presentations.\ntesseract resources\nMy\ndemo\nFork the\nrepo\n\n\n\n",
       "last_modified": "2022-05-18T08:22:53-07:00"
+    },
+    {
+      "path": "week_9_411b.html",
+      "title": "Week 8: Work week and presentations",
+      "author": [],
+      "contents": "\nEDS 411B Week 9:\nSlides\nToday:\n1:00 - 1:15: Reminders, Q&A\n1:15 - 4:00: Your time\n4:00 - 4:15: One cool thing - pins for using, sharing,\nfinding R resources\nMeet pins!\nThe pins package from RStudio lets you “publish data,\nmodels, and other R objects, making it easy to share them across\nprojects and with your colleagues. You can pin objects to a variety of\npin boards, including folders (to share on a networked drive or with\nservices like DropBox), RStudio Connect, Amazon S3, Azure storage and\nMicrosoft 365 (OneDrive and SharePoint). Pins can be automatically\nversioned, making it straightforward to track changes, re-run analyses\non historical data, and undo mistakes”\nI’m just going to show a very basic example of creating a pin board\nlocally, adding some stuff to it, then accessing them from the\nboard.\nSet-up\nInstall pins:\ninstall.packages(\"pins\")\nAttach: library(pins)\nMake a local board\nFor example, you can store a board as my_board.\nmy_board <- pins::board_local()\nAdd something to it\nAdd a dataset to your board\nMake the dataset:\n\n\ncool_data <- tribble(\n  ~teddy, ~khora,\n  1, 2, \n  3, 4,\n  5, 7\n)\n\n\n\nAdd it to the board:\n\n\nmy_board %>% pin_write(cool_data, \"cool_data\", versioned = TRUE)\n\n\n\nRead in something from your\nboard\n\n\nmy_board %>% pin_read(\"cool_data\")\n\n\n\nSee some metadata\n\n\nmy_board %>% pin_meta(\"cool_data\")\n\n\n\nCheck the versions\n\n\nmy_board %>% pin_versions(\"cool_data\")\n\n\n\nUpdate the data, see new\nversion!\nWant to work with an older\nversion?\nUse the version ID.\n\n\nmy_board %>% pin_read(\"cool_data\", version = \"20220525T171008Z-476f6\")\n\n\n\npins resources\npins website from\nRStudio\npins\npackage vignette\nVideo\nintroducing pins with Jesse Mostipak and Katie\nMasiello\n\n\n\n",
+      "last_modified": "2022-05-25T10:29:32-07:00"
     }
   ],
   "collections": []
