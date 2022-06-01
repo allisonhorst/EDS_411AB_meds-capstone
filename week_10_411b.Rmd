@@ -1,0 +1,21 @@
+---
+title: "Week 10: Wrap-up, Kat presents, and a final cool thing"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(pins)
+```
+
+## EDS 411B Week 10:
+
+-   [Slides](https://docs.google.com/presentation/d/e/2PACX-1vTdcdO7vSmBWig4n_1xIMDkGEbOEPZPyHkDN4RFVpSDjR705O4kL7QccFfAcX9NV-nUqsiPK6MWF9Cz/pub?start=false&loop=false&delayms=3000)
+
+## Today:
+
+-   1:00 - 1:10: Reminders 
+-   1:10 - 1:30: Your time
+-   1:30 - 3:30: Dedicated work time
+-   3:30 - 4:00: Wrap-up
+-   4:00 - whenever: Peer & self evals, faculty advisor evaluations, ESCI

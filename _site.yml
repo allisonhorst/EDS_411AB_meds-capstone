@@ -45,6 +45,8 @@ navbar:
           href: week_8_411b.html
         - text: "Week 9: Whatever you need"
           href: week_9_411b.html
+        - text: "Week 10: Wrap-up"
+          href: week_10_411b.html
     - text: "Resources"
       href: resources.html
     - icon: fab fa-github
